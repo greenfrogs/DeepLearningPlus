@@ -8,7 +8,7 @@ with open('readme.md', 'r') as fh:
 
 setuptools.setup(
     name='Deep Learning Plus',
-    version='0.0.4',
+    version='0.0.5',
     author='Greenfrogs',
     author_email='5961364+greenfrogs@users.noreply.github.com',
     description='A collection of Python packages designed for the Python 3.9 for when you only want 1 import',

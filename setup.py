@@ -8,7 +8,7 @@ with open('readme.md', 'r') as fh:
 
 setuptools.setup(
     name='Deep Learning Plus',
-    version='0.0.5',
+    version='0.0.6',
     author='Greenfrogs',
     author_email='5961364+greenfrogs@users.noreply.github.com',
     description='A collection of Python packages designed for the Python 3.9 for when you only want 1 import',
@@ -21,6 +21,8 @@ setuptools.setup(
         'h5py==3.6.0',
         'matplotlib==3.5.1',
         'pytorch-lightning==1.5.7',
+        'opencv-python==4.5.4.60',
+        'scipy==1.7.3'
     ],
     packages=setuptools.find_packages(),
     classifiers=[

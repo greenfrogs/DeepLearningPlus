@@ -13,10 +13,16 @@ jobs:
       with:
         python-version: 3.9
     
+    - name: Install additional pypa
+      run: >-
+        python -m
+        pip install
+        -r requirements-base.txt
+        -f https://download.pytorch.org/whl/torch_stable.html
+
     - name: Install pypa/build
       run: >-
         python -m
-        pip install -r requirements-base.txt -f https://download.pytorch.org/whl/torch_stable.html
         pip install
         build
         --user
